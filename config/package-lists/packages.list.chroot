@@ -37,7 +37,6 @@ pciutils
 perl
 python3-reportbug
 reportbug
-systemd-resolved
 systemd-timesyncd
 traceroute
 ucf
