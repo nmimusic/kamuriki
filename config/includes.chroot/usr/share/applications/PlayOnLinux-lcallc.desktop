@@ -1,0 +1,11 @@
+#SPDX-License-Identifier: BSD-3-Clause
+#Copyright (C) 2021-2024 Nakamura Musical Industries
+
+[Desktop Entry]
+Version=1.0
+Name=PlayOnLinux (English)
+Comment=Front-end application for the wine
+Type=Application
+Exec=bash -c "LC_ALL=C playonlinux" %F
+Icon=playonlinux
+Categories=Utility;Emulator;

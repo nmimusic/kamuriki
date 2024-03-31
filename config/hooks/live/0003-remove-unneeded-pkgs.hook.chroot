@@ -1,0 +1,47 @@
+#!/bin/sh
+apt-get purge -y \
+	atril \
+	debian-faq \
+	debian-reference-common \
+	doc-debian \
+	evince \
+	exfalso \
+	gdm3 \
+	gedit \
+	gnome-bluetooth* \
+	gnome-control-center* \
+	gnome-desktop3-data \
+	gnome-icon-theme \
+	gnome-online-accounts \
+	gnome-settings-daemon* \
+	gnome-shell \
+	gnome-software \
+	gnome-terminal \
+	gnome-user-* \
+	ibus \
+	info \
+	libgnome-* \
+	libxfce4* \
+	lxqt-branding-debian \
+	malcontent \
+	metacity \
+	mlterm \
+	mlterm-common \
+	mlterm-tiny \
+	mousepad \
+	parole \
+	pavucontrol \
+	quodlibet \
+	ristretto \
+	snapd \
+	software-properties-gtk \
+	systemsettings \
+	thunar \
+	xarchiver \
+	xfburn \
+	xfce4* \
+	xfwm4 \
+	xsane \
+	xterm \
+	zutty
+sudo apt autoremove --purge -y

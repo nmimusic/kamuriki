@@ -1,0 +1,4 @@
+#SPDX-License-Identifier: BSD-3-Clause
+#Copyright (C) 2021-2024 Nakamura Musical Industries
+
+deb [arch=amd64] https://master.dl.sourceforge.net/project/kamurikilinux/kamuriki cheetah main

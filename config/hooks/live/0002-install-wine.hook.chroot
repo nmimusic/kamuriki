@@ -1,0 +1,4 @@
+#!/bin/sh
+dpkg --add-architecture i386
+apt-get update
+apt-get install -y winehq-stable winetricks playonlinux q4wine
