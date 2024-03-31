@@ -1,4 +1,4 @@
 #SPDX-License-Identifier: BSD-3-Clause
 #Copyright (C) 2021-2024 Nakamura Musical Industries
 
-deb https://dl.winehq.org/wine-builds/debian bookworm main
+deb https://dl.winehq.org/wine-builds/debian trixie main
