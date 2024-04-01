@@ -16,7 +16,8 @@ lb config \
 	--bootappend-live "boot=live quiet splash components locales=C.UTF-8 timezone=Asia/Tokyo debug=1" \
 	--architecture "${ARCH}" \
 	--binary-image "${BINARY_IMG}" \
-	--image-name "${ISO_NAME}-${ISO_VERSION}"
+	--image-name "${ISO_NAME}-${ISO_VERSION}" \
+	--iso-volume "${ISO_LABEL}"
 
 wget -q -O config/archives/kamuriki.key.chroot https://master.dl.sourceforge.net/project/kamurikilinux/kamuriki-archive.key
 cp config/archives/kamuriki.key.chroot config/archives/kamuriki.key.binary
