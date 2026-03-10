@@ -1,5 +1,5 @@
 #SPDX-License-Identifier: BSD-3-Clause
-#Copyright (C) 2021-2024 Nakamura Musical Industries/NIPPON RURITANIA
+#Copyright (C) 2021-2024 Nakamura Musical Industries
 
 # If you change this file, run 'update-grub' afterwards to update
 # /boot/grub/grub.cfg.

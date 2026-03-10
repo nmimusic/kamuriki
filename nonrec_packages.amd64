@@ -1,10 +1,10 @@
 #SPDX-License-Identifier: BSD-3-Clause
-#Copyright (C) 2021-2024 Nakamura Musical Industries/NIPPON RURITANIA
+#Copyright (C) 2021-2024 Nakamura Musical Industries
 
 # Wine
 winehq-stable
 winetricks
-playonlinux
+wine-installer
 q4wine
 clamav
 clamav-daemon
