@@ -1,0 +1,11 @@
+#SPDX-License-Identifier: BSD-3-Clause
+#Copyright (C) 2021-2024 Nakamura Musical Industries
+
+[Desktop Entry]
+Type=Application
+Name=loopback-mount
+Exec=udisksctl loop-setup -r -f %f
+Categories=Other;
+NoDisplay=true
+MimeType=application/vnd.efi.iso
+Terminal=false

@@ -1,0 +1,5 @@
+#SPDX-License-Identifier: BSD-3-Clause
+#Copyright (C) 2021-2024 Nakamura Musical Industries/NIPPON RURITANIA
+
+deb https://dl.winehq.org/wine-builds/debian trixie main
+deb-src https://dl.winehq.org/wine-builds/debian trixie main
