@@ -1,5 +1,5 @@
 #SPDX-License-Identifier: BSD-3-Clause
 #Copyright (C) 2021-2024 Nakamura Musical Industries/NIPPON RURITANIA
 
-deb [arch=amd64] https://master.dl.sourceforge.net/project/kamurikilinux/kamuriki deer main
-deb-src https://master.dl.sourceforge.net/project/kamurikilinux/kamuriki deer main
+deb [arch=amd64] https://master.dl.sourceforge.net/project/kamurikilinux/kamuriki erimakitokage main
+deb-src https://master.dl.sourceforge.net/project/kamurikilinux/kamuriki erimakitokage main
