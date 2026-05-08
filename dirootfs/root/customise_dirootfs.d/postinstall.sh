@@ -2,3 +2,4 @@
 export PATH=/usr/bin:/usr/local/bin:/usr/sbin
 
 dpkg-reconfigure wine-stable-amd64 wine-stable-i386 wine-stable
+ln /usr/share/applications/org.fcitx.Fcitx5.desktop /etc/xdg/autostart/org.fcitx.Fcitx5.desktop

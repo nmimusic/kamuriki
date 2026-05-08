@@ -3,7 +3,7 @@
 # License: 3-clause BSD
 DISTRO_NAME="Kamuriki Linux 4"
 DISTRO_UNAME="kamuriki"
-DISTRO_VERSION="4.2"
+DISTRO_VERSION="4.3"
 UPSTREAM="debian"
 UPSTREAM_VERSION="trixie"
 MIRROR_URL="https://deb.debian.org/debian"

@@ -1,11 +1,50 @@
 #SPDX-License-Identifier: BSD-3-Clause
-#Copyright (C) 2021-2024 Nakamura Musical Industries/NIPPON RURITANIA
+#Copyright (C) 2021-2026 Nakamura Musical Industries, Computer Software Developing Business Unit
+
+# Kamu Desktop
+kamuriki-desktop
+pavucontrol-qt-l10n
+kdialog
+vlc-l10n
+firefox-esr-l10n-ja
+thunderbird-l10n-ja
+libreoffice-l10n-ja
+
+# Input Method: Fcitx5
+fcitx5
+fcitx5-config-qt
+fcitx5-frontend-gtk2
+fcitx5-frontend-gtk3
+fcitx5-frontend-gtk4
+fcitx5-frontend-qt5
+fcitx5-frontend-qt6
+fcitx5-mozc
+
+# Firmwares
+amd64-microcode
+bluez-firmware
+firmware-amd-graphics
+firmware-ast
+firmware-atheros
+firmware-brcm80211
+firmware-intel-sound
+firmware-iwlwifi
+firmware-linux
+firmware-linux-free
+firmware-linux-nonfree
+firmware-misc-nonfree
+firmware-realtek
+firmware-sof-signed
+firmware-ti-connectivity
+intel-microcode
 
 # Wine
 winehq-stable
 winetricks
 wine-installer
 q4wine
+
+# Vaccine Software: ClamTk
 clamav
 clamav-daemon
 clamtk
