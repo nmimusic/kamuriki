@@ -1,0 +1,56 @@
+name: Close External P/Rs
+
+on:
+  pull_request_target:
+    types: [opened]
+
+# 権限
+permissions:
+  pull-requests: write
+  issues: write
+
+jobs:
+  close-pr:
+    runs-by: ubuntu-latest
+    # 外部からのフォークによるP/R（リポジトリのオーナーではない場合）のみ実行
+    if: github.event.pull_request.author_association != 'COLLABORATOR' && github.event.pull_request.author_association != 'MEMBER' && github.event.pull_request.author_association != 'OWNER'
+    steps:
+      - name: Close and Comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const message = `## 重要なお知らせ
+            
+            本プロジェクトは、弊クラブの本業である音楽及びアダルトゲームの制作を支える周辺技術であり、その成果をお裾分けしているものであります。
+            
+            全ての仕様は、クラブメンバーの意向と制作環境のみに最適化して設計されています。利便性の向上や仕様変更など、外部からの意向や提案は一律でお断りしており、一切受け入れるコトはありません。
+            
+            そのため、**外部からのプルリクエストは理由を問わず一律で自動クローズされます。**
+            
+            汎用的なシステムへの変更や、独自の加工を行いたい場合は、**ご自由にフォークして、ご自身のシステムとして開発・配布をして下さい。**自由なフォークを歓迎します。
+            
+            ## Important Notice
+            
+            This project comprises peripheral technologies that underpin our club’s core business of producing music and hentai games, and we are sharing the results of this work.
+            
+            All specifications have been designed to be optimised solely for the preferences of our club members and our production environment. We categorically decline and will not accept any external requests or proposals regarding improvements to usability or changes to specifications.
+            
+            Consequently, **pull requests from external parties will be automatically closed without exception, regardless of the reason. **
+            
+            If you wish to modify the system for general-purpose use or to customise it, **please feel free to fork it and develop and distribute it as your own system.** We welcome free forking.`;
+
+            // コメントを投稿
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: message
+            });
+
+            // P/Rをクローズ
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              state: 'closed'
+            });
