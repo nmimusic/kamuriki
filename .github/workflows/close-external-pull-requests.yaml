@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   close-pr:
-    runs-by: ubuntu-latest
+    runs-on: ubuntu-latest
     # 外部からのフォークによるP/R（リポジトリのオーナーではない場合）のみ実行
     if: github.event.pull_request.author_association != 'COLLABORATOR' && github.event.pull_request.author_association != 'MEMBER' && github.event.pull_request.author_association != 'OWNER'
     steps:
