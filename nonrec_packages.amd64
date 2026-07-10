@@ -3,8 +3,10 @@
 
 # Kamu Desktop
 kamuriki-desktop
+abiword
 acpi-support
 ark
+ardour
 avahi-daemon
 bluez
 bluez-cups
@@ -14,6 +16,7 @@ cups-bsd
 cups-client
 cups-filters
 elisa
+fcitx5
 firefox-esr
 fonts-indic
 fonts-kacst-one
@@ -26,19 +29,14 @@ fonts-thai-tlwg
 fonts-tibetan-machine
 fwupd
 fwupd-signed
-gimp
 hplip
 k3b
 kate
 kcalc
 kde-spectacle
+krita
 laptop-detect
 libnss-mdns
-libreoffice-calc
-libreoffice-impress
-libreoffice-plasma
-libreoffice-style-breeze
-libreoffice-writer
 memtest86+
 okular
 packagekit
@@ -67,6 +65,9 @@ vlc-plugin-samba
 vlc-plugin-skins2
 vlc-plugin-svg
 vlc-plugin-video-splitter
+yabridge-wine10
+yabridgectl-wine10
+yabridget
 zsync
 
 # Localisation
