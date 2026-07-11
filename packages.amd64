@@ -47,8 +47,7 @@ wamerican
 wget
 xz-utils
 
-# Desktop Packages
-kamuriki-desktop
+# other Packages
 sudo
 live-task-standard
 discover
@@ -60,16 +59,13 @@ net-tools
 wireless-tools
 wpagui
 locales
-pavucontrol-qt-l10n
-kdialog
-vlc-l10n
-firefox-esr-l10n-all
-libreoffice-l10n-*
-locales
 git
 iputils-ping
 apt-utils
 unifetch
+dosfstools
+ntfs-3g
+e2fsprogs
 
 # Bootloader
 grub-common
@@ -86,31 +82,3 @@ libefivar1
 # Installer
 calamares
 calamares-settings-kamuriki
-
-# Input Method: Fcitx5
-fcitx5
-fcitx5-mozc
-fcitx5-rime
-fcitx5-chewing
-fcitx5-hangul
-fcitx5-libthai
-fcitx5-unikey
-fcitx5-sayura
-
-# Firmwares
-amd64-microcode
-bluez-firmware
-firmware-amd-graphics
-firmware-ast
-firmware-atheros
-firmware-brcm80211
-firmware-intel-sound
-firmware-iwlwifi
-firmware-linux
-firmware-linux-free
-firmware-linux-nonfree
-firmware-misc-nonfree
-firmware-realtek
-firmware-sof-signed
-firmware-ti-connectivity
-intel-microcode

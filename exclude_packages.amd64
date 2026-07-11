@@ -5,7 +5,6 @@ bind9*
 brasero
 debian-faq
 debian-reference-common
-desktop-base
 doc-debian
 dolphin
 evince
@@ -127,7 +126,6 @@ shotwell
 simple-scan
 snapd
 software-properties-gtk
-systemsettings
 thunar
 thunar-archive-plugin
 thunar-media-tags-plugin

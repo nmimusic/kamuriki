@@ -1,11 +1,116 @@
 #SPDX-License-Identifier: BSD-3-Clause
-#Copyright (C) 2021-2024 Nakamura Musical Industries/NIPPON RURITANIA
+#Copyright (C) 2021-2026 Nakamura Musical Industries, Computer Software Developing Business Unit
+
+# Kamu Desktop
+kamuriki-desktop
+abiword
+acpi-support
+ark
+ardour
+avahi-daemon
+bluez
+bluez-cups
+byobu
+cups
+cups-bsd
+cups-client
+cups-filters
+elisa
+fcitx5
+firefox-esr
+fonts-indic
+fonts-kacst-one
+fonts-khmeros
+fonts-lao
+fonts-lklug-sinhala
+fonts-sil-abyssinica
+fonts-sil-padauk
+fonts-thai-tlwg
+fonts-tibetan-machine
+fwupd
+fwupd-signed
+hplip
+k3b
+kate
+kcalc
+kde-spectacle
+krita
+laptop-detect
+libnss-mdns
+memtest86+
+okular
+packagekit
+partitionmanager
+pastebinit
+pcmciautils
+plasma-discover
+printer-driver-brlaser
+printer-driver-c2esp
+printer-driver-foo2zjs
+printer-driver-m2300w
+printer-driver-min12xxw
+printer-driver-ptouch
+printer-driver-pxljr
+printer-driver-sag-gdi
+printer-driver-splix
+skanlite
+thunderbird
+ttf-ancient-fonts-symbola
+unifetch
+vim
+vlc
+vlc-plugin-access-extra
+vlc-plugin-notify
+vlc-plugin-samba
+vlc-plugin-skins2
+vlc-plugin-svg
+vlc-plugin-video-splitter
+yabridge-wine10
+yabridgectl-wine10
+yabridget
+zsync
+
+# Localisation
+vlc-l10n
+firefox-esr-l10n-ja
+thunderbird-l10n-ja
+libreoffice-l10n-ja
+
+# Input Method: Fcitx5
+fcitx5
+fcitx5-config-qt
+fcitx5-frontend-gtk2
+fcitx5-frontend-gtk3
+fcitx5-frontend-gtk4
+fcitx5-frontend-qt5
+fcitx5-frontend-qt6
+fcitx5-mozc
+
+# Firmwares
+amd64-microcode
+bluez-firmware
+firmware-amd-graphics
+firmware-ast
+firmware-atheros
+firmware-brcm80211
+firmware-intel-sound
+firmware-iwlwifi
+firmware-linux
+firmware-linux-free
+firmware-linux-nonfree
+firmware-misc-nonfree
+firmware-realtek
+firmware-sof-signed
+firmware-ti-connectivity
+intel-microcode
 
 # Wine
 winehq-stable
 winetricks
 wine-installer
 q4wine
+
+# Vaccine Software: ClamTk
 clamav
 clamav-daemon
 clamtk
