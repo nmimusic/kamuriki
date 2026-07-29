@@ -1,5 +1,5 @@
 #SPDX-License-Identifier: BSD-3-Clause
-#Copyright (C) 2021-2024 Nakamura Musical Industries
+#Copyright (C) 2021-2024 Nakamura Musical Industries/NIPPON RURITANIA
 
 # If you change this file, run 'update-grub' afterwards to update
 # /boot/grub/grub.cfg.
@@ -9,7 +9,7 @@
 GRUB_DEFAULT=0
 GRUB_TIMEOUT=5
 GRUB_DISTRIBUTOR="Kamuriki"
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash efi=runtime"
 GRUB_CMDLINE_LINUX=""
 GRUB_BACKGROUND=""
 

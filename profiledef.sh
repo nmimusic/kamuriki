@@ -2,7 +2,7 @@
 # License: 3-clause BSD
 DISTRO_NAME="Kamuriki Linux 3"
 DISTRO_UNAME="kamuriki"
-DISTRO_VERSION="3.12"
+DISTRO_VERSION="3.14159265_LTS"
 UPSTREAM="debian"
 UPSTREAM_VERSION="bookworm"
 MIRROR_URL="https://deb.debian.org/debian"
