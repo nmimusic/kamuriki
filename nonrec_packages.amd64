@@ -74,7 +74,7 @@ zsync
 # LV2 Plugins
 ardour-lv2-plugins
 amsynth
-avldrums-lv2
+avldrums.lv2
 guitarix-lv2
 mda-lv2
 
