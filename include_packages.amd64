@@ -1,0 +1,5 @@
+#SPDX-License-Identifier: BSD-3-Clause
+#Copyright (C) 2021-2026 Nakamura Musical Industries, Computer Software Developing Business Unit
+
+wget
+gpg
