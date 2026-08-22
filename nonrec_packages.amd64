@@ -71,6 +71,13 @@ yabridgectl-wine10
 yabridget
 zsync
 
+# LV2 Plugins
+ardour-lv2-plugins
+amsynth
+avldrums-lv2
+guitarix-lv2
+mda-lv2
+
 # Localisation
 vlc-l10n
 firefox-esr-l10n-ja
